@@ -1,2 +1,4 @@
 sagarenv/
 /sagar.sock
+sagar/settings.py
+*.pyc
