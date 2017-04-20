@@ -5,5 +5,6 @@ from .models import BlogPost
 
 class BlogPostAdmin(admin.ModelAdmin):
     list_display = ['id', 'title']
+    prepopulated_fields = {'slug':('title',)}
 
 admin.site.register(BlogPost,BlogPostAdmin)
