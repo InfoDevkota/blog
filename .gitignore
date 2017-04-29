@@ -3,4 +3,5 @@ sagarenv/
 /sagar/settings.py
 *.pyc
 /db.sqlite3
+migrations/
 
