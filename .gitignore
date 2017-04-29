@@ -1,6 +1,5 @@
 sagarenv/
 /sagar.sock
-sagar/settings.py
 /sagar/settings.py
 *.pyc
 /db.sqlite3
